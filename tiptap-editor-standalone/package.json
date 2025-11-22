@@ -1,0 +1,50 @@
+{
+  "name": "tiptap-editor-standalone",
+  "version": "1.0.0",
+  "description": "Standalone Tiptap Editor package with full features and comprehensive documentation",
+  "main": "index.ts",
+  "scripts": {
+    "build": "echo 'Build scripts should be configured based on your project setup'"
+  },
+  "dependencies": {
+    "@tiptap/react": "^3.10.0",
+    "@tiptap/starter-kit": "^3.10.0",
+    "@tiptap/extension-subscript": "^3.10.0",
+    "@tiptap/extension-superscript": "^3.10.0",
+    "@tiptap/extension-table": "^3.10.0",
+    "@tiptap/extension-text-align": "^3.10.0",
+    "@tiptap/extension-text-style": "^3.10.0",
+    "@tiptap/extensions": "^3.10.0",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-colorful": "^5.6.1",
+    "react-icons": "^5.4.0",
+    "react-window": "^2.2.0",
+    "clsx": "^2.1.1",
+    "lowlight": "^3.3.0",
+    "shiki": "^3.12.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "optionalDependencies": {
+    "@tiptap/extension-code-block-lowlight": "^3.10.0",
+    "@tiptap/extension-drag-handle": "^3.11.0",
+    "@tiptap/extension-drag-handle-react": "^3.11.0",
+    "codemirror": "^6"
+  },
+  "keywords": [
+    "tiptap",
+    "editor",
+    "rich-text",
+    "wysiwyg",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

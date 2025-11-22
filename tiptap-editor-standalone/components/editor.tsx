@@ -1,3 +1,16 @@
+/**
+ * TiptapEditor Component
+ * 
+ * Component chính của Tiptap Editor
+ * Đây là component entry point, bao gồm tất cả các tính năng:
+ * - Rich text editing
+ * - Menu bar với các controls
+ * - Context menus (link, image, table, code block)
+ * - Status bar
+ * - Drag handle (optional)
+ * - Resizer
+ */
+
 import React, {
   useEffect,
   useCallback,
